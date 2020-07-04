@@ -2,14 +2,14 @@
 The Tenant Service will help manage and automated work orders for tenant.
 
 
-# API
+## API
 
 * Check if service is up:
     * GET http://www.example.com/tenant/areyouthere
 * Save work order:
-    * POST http://www.example.com/miai/saveworkorder
+    * POST http://www.example.com/tenant/saveworkorder
 
-# Error handling
+## Error handling
 
 Error responses should include a common HTTP status code, message for the developer, message for the end-user (when appropriate), internal error code (corresponding to some specific internally determined ID), links where developers can find more info. For example:
 
@@ -28,6 +28,6 @@ Use three simple, common response codes indicating (1) success, (2) failure due 
 * 400 - Bad Request
 * 500 - Internal Server Error
 
-# Credit/Resources
+## Credit/Resources
 
 N/A
